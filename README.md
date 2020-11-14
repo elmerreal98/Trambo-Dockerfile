@@ -1,5 +1,5 @@
 # Trambo-Dockerfile
-Marzo 2020, Dockerfile para crear imagen alpine con el cli de aws instalado.
+Marzo 2020, Dockerfile used to create and docker image with aws cli installed.
 
 ![alt](./pictures/ss1.png)
 
