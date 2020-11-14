@@ -1,0 +1,24 @@
+docker build -t alpine-elmer .
+docker run -d -p 8080:80 --name contenedor1 alpine-elmer
+
+Remove all exit containers 
+docker rm $(docker ps -a -f status=exited -q)
+
+
+
+
+
+One liner to stop / remove all of Docker containers:
+
+docker stop $(docker ps -a -q)
+docker rm $(docker ps -a -q)
+
+
+echo "" > Dockerfile
+nano Dockerfile
+
+docker build -t alpine-elmer .
+
+echo "" > comandos.sh
+nano comandos.sh 
+./comandos.sh
